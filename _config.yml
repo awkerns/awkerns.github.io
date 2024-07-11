@@ -22,11 +22,11 @@ repository               : "awkerns/awkerns.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Aidan W. Kerns"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Aidan's Life Story"
+  location         : "Manhattan, KS, USA, Earth, Milky Way, Univsere Prime"
+  employer         : "KAnsas State University"
   uri              : # URL
   email            : "none@example.org" 
 
