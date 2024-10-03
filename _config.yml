@@ -12,8 +12,8 @@ title                    : "Aidan W. Kerns / Consulting Statistician"
 title_separator          : "-"
 name                     : &name "Aidan W. Kerns"
 description              : &description "Consulting statistician with expertise in modeling and forecasting. Passionate about translational statistics and statistical consulting. Skilled in mixed-effects models, Bayesian hierarchical models, and the development of RShiny applications for statistical analysis."
-url                      : https://awkerns.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+url                      : https://awkerns.github.io # the base hostname & protocol for your site
+baseurl                  : "" # the subpath of your site
 repository               : "awkerns/awkerns.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -24,26 +24,26 @@ author:
   avatar           : "profile.png"
   name             : "Aidan W. Kerns"
   pronouns         : # example: "she/her"  
-  bio              : "Aidan's Life Story"
-  location         : "Manhattan, KS, USA, Earth, Milky Way, Univsere Prime"
-  employer         : "KAnsas State University"
+  bio              : "Bio"
+  location         : "Manhattan, KS, USA"
+  employer         : "Kansas State University"
   uri              : # URL
   email            : "none@example.org" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : # URL
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-6151-6604"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "http://awkerns.github.io/files/"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
