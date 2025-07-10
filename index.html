@@ -74,16 +74,14 @@
   </nav>
   <div class="flex flex-col items-center justify-center min-h-screen">
     <div id="header-container" class="px-4 py-5 mt-8 space-x-4">
-      <h1 class="text-8xl font-bold mb-10">Tobias Wilhelm</h1>
-      <h2 class="text-xl mb-3">Empathic Team Manager by Day, Innovating with AI and NoCode at Night
-        <br><b>Merging Productivity and Creativity</b></h2>
+      <h1 class="text-8xl font-bold mb-10">Aidan W. Kerns</h1>
+      <h2 class="text-xl mb-3">Statistician and Researcher
+        <br><b>Methods that matter, results that translate</b></h2>
       <br>
       <div class="flex space-x-4">
-        <a href="https://www.linkedin.com/in/tobiaswilhelm" target="_blank" class="text-xl text-black hover:text-pink-600 transition-colors duration-200 ease-in-out"><i class="fab fa-linkedin"></i></a>
-        <a href="https://twitter.com/tobias_digital" target="_blank" class="text-xl text-black hover:text-pink-600 transition-colors duration-200 ease-in-out"><i class="fab fa-x-twitter"></i></a>
-        <a href="https://www.reddit.com/user/tobias_digital" target="_blank" class="text-xl text-black hover:text-pink-600 transition-colors duration-200 ease-in-out"><i class="fab fa-reddit"></i></a>
-        <a href="https://github.com/tobwil" target="_blank" class="text-xl text-black hover:text-pink-600 transition-colors duration-200 ease-in-out"><i class="fab fa-github"></i></a>
-        <a href="mailto:tobias@wilhelm.digital" target="_blank" class="text-xl text-black hover:text-pink-600 transition-colors duration-200 ease-in-out"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/awkerns" target="_blank" class="text-xl text-black hover:text-pink-600 transition-colors duration-200 ease-in-out"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/awkerns" target="_blank" class="text-xl text-black hover:text-pink-600 transition-colors duration-200 ease-in-out"><i class="fab fa-github"></i></a>
+        <a href="mailto:awkerns@ksu.edu" target="_blank" class="text-xl text-black hover:text-pink-600 transition-colors duration-200 ease-in-out"><i class="fas fa-envelope"></i></a>
       </div>
     </div>
   </div>
@@ -114,7 +112,7 @@
       });
     </script>
     <div id="listening-container" class="w-full px-4 py-5">
-      <h3 class="text-2xl font-semibold mb-4"><i class="fab fa-spotify"></i> What's on my Playlist</h3>
+      <h3 class="text-2xl font-semibold mb-4"><i class="fab fa-spotify"></i> What am I reading?</h3>
       <div id="listening-list" class="flex flex-wrap mx-auto md:-mx-2 md:space-x-4">
         <!-- Fetched Listening Markdown files will be displayed here -->
       </div>
@@ -331,16 +329,6 @@ footer.className = "mt-8 mb-4";
 const footerContent = document.createElement("div");
 footerContent.className = "flex items-center justify-between";
 footer.appendChild(footerContent);
-
-const copyright = document.createElement("div");
-copyright.className = "hidden md:flex";
-copyright.innerHTML = '&nbsp;&nbsp;&copy; ' + (new Date().getFullYear()) + ' Tobias Wilhelm';
-footerContent.appendChild(copyright);
-
-const madeWith = document.createElement("div");
-madeWith.className = "hidden md:flex";
-madeWith.innerHTML = 'Imagined by Me - Realized with AI 🧠';
-footerContent.appendChild(madeWith);
 
 const elevatorBtnDiv = document.createElement("div");
 elevatorBtnDiv.innerHTML = 'You need an elevator ride?&nbsp;&nbsp;<i class="fas fa-elevator"></i>&nbsp;&nbsp;';
