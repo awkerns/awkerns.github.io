@@ -108,6 +108,32 @@
         toggleBtn.innerText = isDarkModeOn ? "☀️" : "🌓";
       });
     </script>
+  <div class="w-full px-4 py-5 flex flex-col md:flex-row md:space-x-6">
+  <!-- 🎧 Listening Section -->
+  <div id="listening-container" class="w-full md:w-1/2 mb-8 md:mb-0">
+    <h3 class="text-2xl font-semibold mb-4">
+      <i class="fab fa-spotify"></i> Currently Listening
+    </h3>
+    <h4 class="text-sm italic mb-4">
+      A rotating mix of bangers, deep cuts, and late-night loops
+    </h4>
+    <div id="listening-list" class="space-y-2">
+      <!-- Inject or hard-code what you're listening to -->
+    </div>
+  </div>
+  <!-- 📚 Reading Section -->
+  <div id="reading-container" class="w-full md:w-1/2">
+    <h3 class="text-2xl font-semibold mb-4">
+      <i class="fas fa-book-open"></i> Currently Reading
+    </h3>
+    <h4 class="text-sm italic mb-4">
+      Books, articles, and spurious learning.
+    </h4>
+    <div id="reading-list" class="space-y-2">
+      <!-- Inject or hard-code what you're reading -->
+    </div>
+  </div>
+</div>
   </div>
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
